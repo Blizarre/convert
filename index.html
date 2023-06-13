@@ -3,52 +3,129 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Numerical converter</title>
+    <title>Converter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 1em;
+        }
+
+        td {
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgrey;
+            padding: 10px;
+        }
+        input {
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div id="content">
+    <h1>Number representation 🔢</h1>
 
-        <h1 class="section">Converter 🔢</h1>
-
-        <table>
-            <tr>
-                <td>
-                    <label for="binary">Binary:</label>
-                </td>
-                <td>
-                    <input id="binary" type="text" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="hexadecimal">Hexa:</label>
-                </td>
-                <td>
-                    <input id="hexadecimal" type="text" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="decimal">Decimal:</label>
-                </td>
-                <td>
-                    <input id="decimal" type="text" />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="octal">Octal:</label>
-                </td>
-                <td>
-                    <input id="octal" type="text" />
-                </td>
-            </tr>
-        </table>
+    <table>
+        <tr>
+            <td>
+                <label for="binary">Binary:</label>
+            </td>
+            <td>
+                <input id="binary" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hexadecimal">Hexa:</label>
+            </td>
+            <td>
+                <input id="hexadecimal" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="decimal">Decimal:</label>
+            </td>
+            <td>
+                <input id="decimal" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="octal">Octal:</label>
+            </td>
+            <td>
+                <input id="octal" type="text" />
+            </td>
+        </tr>
+    </table>
     <script type="text/javascript" src="convert.js"></script>
-    </div>
+
+    <h1>Temperatures</h1>
+
+    Common oven Temperatures (approximations):
+
+    <table>
+        <tr>
+            <th>Fahrenheit</th>
+            <th>Celsius</th>
+            <th>&nbsp;&nbsp;</th>
+            <th>Fahrenheit</th>
+            <th>Celsius</th>
+        </tr>
+        <tr>
+            <td>225°F</td>
+            <td>110°C</td>
+            <td></td>
+            <td>375°F</td>
+            <td>190°C</td>
+        </tr>
+        <tr>
+            <td>250°F</td>
+            <td>120°C</td>
+            <td></td>
+            <td>400°F</td>
+            <td>200°C</td>
+        </tr>
+        <tr>
+            <td>275°F</td>
+            <td>135°C</td>
+            <td></td>
+            <td>425°F</td>
+            <td>220°C</td>
+        </tr>
+        <tr>
+            <td>300°F</td>
+            <td>150°C</td>
+            <td></td>
+            <td>450°F</td>
+            <td>230°C</td>
+        </tr>
+        <tr>
+            <td>325°F</td>
+            <td>160°C</td>
+            <td></td>
+            <td>475°F</td>
+            <td>245°C</td>
+        </tr>
+        <tr>
+            <td>350°F</td>
+            <td>180°C</td>
+            <td></td>
+            <td>500°F</td>
+            <td>260°C</td>
+        </tr>
+    </table>
+
 </body>
 
 </html>
